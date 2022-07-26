@@ -264,22 +264,22 @@
                                         <label for="">Email: <span style="color:red;font-size: 12px;"></span></label>
                                         <input type="text" autocomplete="off"  name="email" class="form-control" placeholder="">
                                     </div>
-                                    <div class="form-group col-md-4 col-sm-6">
+                                    <div class="form-group col-md-4 col-sm-6 chosen-flex chosen-width">
                                         <label for="">Religion: <span style="color:red;font-size: 12px;">(*Required*)</span></label>
-                                        <select class="editable-select chosen-select" name='religion'  data-placeholder="Select Religion" style="width:100%">
-                                            <option value=""></option>
-                                            <option value="Hindu">Hindu</option>
-                                            <option value="Muslim">Muslim</option>
-                                        </select>
-                                    </div>
+                                        <select name="id" class="chosen-select" data-placeholder="Choose a Religion..." style="width:100%">
+                                             <option value="">--- Select ---</option>
+                                             <option value="Hindu">Hindu</option>
+                                             <option value="Muslim">Muslim</option>
+                                         </select>
+                                     </div>
                                     <div class="form-group col-md-4 col-sm-6">
                                         <label for="">Adress: <span style="color:red;font-size: 12px;"></span></label>
                                         <input type="text" autocomplete="off"  name="address" class="form-control" placeholder="">
                                     </div>
-                                        <div class="form-group col-md-4 col-sm-6">
+                                        <div class="form-group col-md-4 col-sm-6 chosen-flex chosen-width">
                                         <label for=""> District: <span style="color:red;font-size: 12px;"></span></label>
-                                        <select name="district_id" class="chosen-select editable-select" data-placeholder="Select District" style="width:100%">
-                                            <option value=""></option>
+                                        <select name="district_id" class="chosen-select" data-placeholder="Select District" style="width:100%">
+                                                <option value="">---Select---</option>
                                                 <option value="1">Dhaka</option>
                                                 <option value="1">Comilla</option>
                                                 <option value="1">Manikganj</option>
